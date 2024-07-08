@@ -1,0 +1,47 @@
+.subject_image{
+    width: 100%;
+    height: 100%;
+}
+
+.subject_image .__image__{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    transition: all .4s ease;
+}
+
+.subject_image .__image__ img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: all .4s ease;
+}
+
+.subject_image .__image__ .image_text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    border-radius: 10px;
+    transition: all .4s ease;
+    z-index: 1;
+}
+
+.subject_image .__image__ .image_text .texts{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: hsl(0, 0%, 0%);
+    transition: all .4s ease;
+}
+
+.subject_image .__image__ img:hover ~ .image_text{
+    display: initial;
+    background: hsla(240, 100%, 50%, 0.359);
+}
