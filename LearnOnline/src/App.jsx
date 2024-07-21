@@ -1,5 +1,6 @@
 import './App.css'
 import About from './About'
+import BackToTop from './components/BackToTop'
 import Courses from './Courses'
 import Header from './Header'
 import Blog from './Blog'
@@ -32,6 +33,7 @@ function App() {
       </div>
     </div>
 
+    <BackToTop />
 
     </>
   )

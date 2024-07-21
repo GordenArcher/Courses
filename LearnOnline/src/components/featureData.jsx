@@ -1,4 +1,5 @@
-const featureData = (props) => {
+const FeatureData = (props) => {
+    console.log(props);
   return (
     <div>
         <div className="fgtreww">
@@ -55,4 +56,4 @@ const featureData = (props) => {
   )
 }
 
-export default featureData
+export default FeatureData

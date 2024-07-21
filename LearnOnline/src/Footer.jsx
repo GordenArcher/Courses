@@ -90,8 +90,7 @@ const Footer = () => {
                                                 <a href='#!'>
                                                 Architecture
                                                 </a>
-                                            </li>
-                                            
+                                            </li>  
                                         </ul>
                                     </div>
                                 </div>

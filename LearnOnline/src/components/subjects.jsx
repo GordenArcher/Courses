@@ -1,4 +1,4 @@
-import './assets/CSS/subjects.css'
+import '../assets/CSS/subjects.css'
 // import { protoTypes } from 'prop-types'
 
 const Subjects = (props) => {

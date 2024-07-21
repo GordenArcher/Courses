@@ -1,4 +1,4 @@
-const homeGrid = (props) => {
+const HomeGrid = (props) => {
   return (
     <div>
         <div className="grid_row" key={props.index}>
@@ -20,4 +20,4 @@ const homeGrid = (props) => {
   )
 }
 
-export default homeGrid
+export default HomeGrid

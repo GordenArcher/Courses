@@ -1,0 +1,146 @@
+.courses_container, .wrapper, .courses_main, .features_head, .featuress, .explore___, .exploree_head, .explore_main_data, .service___{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.courses_container .wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+}
+
+.courses_container .wrapper .courses_header, .courses_features, .explore_subjects{
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.courses_container .head{
+    font-size: 2.3rem;
+    color: hsl(240, 100%, 50%);
+}
+
+.navigation_link{
+    display: flex;
+    gap: 20px;
+}
+
+.navigation_link span a{
+    color: hsla(0, 0%, 0%, 0.373);
+    transition: all .3s ease;
+}
+
+.navigation_link span a:hover{
+    color: hsla(0, 0%, 0%);
+}
+
+.courses_features{
+    margin-top: 100px;
+}
+
+.features_head, .exploree_head {
+    color: hsl(240, 100%, 50%);
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.courses_container .wrapper .features___, .____exxploreee{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.load_more_features, .load_more_subjects{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.load_more_features button, .load_more_subjects button{
+    width: 200px;
+    height: 55px;
+    font-size: 1.2rem;
+    transition: all .4s ease;
+}
+
+.load_more_features button:hover, .load_more_subjects button:hover{
+    transform: translateY(-6px);
+}
+
+.explore___ .exploree_head{
+    margin-top: 70px;
+    
+}
+
+.____exxploreee{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.load_more_subjects button{
+    width: 250px;
+    height: 55px;
+}
+
+.service{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.col .grid_row{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(235, 228, 227);
+    padding: 10px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.col .grid_row .col_img {
+    position: relative;
+    width: 200px;
+    height: 100%;
+}
+
+.col .grid_row .col_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.col .grid_row .grid_text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+ .col .grid_row .grid_text .grid_head{
+    font-size: 1.4rem;
+    color: hsl(240, 100%, 50%);
+}
+
+.col .grid_row .grid_text .grid_desc{
+    font-size: .9rem;
+}

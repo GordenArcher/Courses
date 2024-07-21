@@ -11,8 +11,7 @@ import Features from './features'
 import AboutVidoePop from './components/AboutVidoe'
 import 'boxicons'
 import { useState } from 'react'
-import Subjects from './subjects'
-import BackToTop from './components/BackToTop'
+import Subjects from './components/subjects'
 import TeamData from './components/TeamData'
 
 const Home = () => {
@@ -274,7 +273,7 @@ const Home = () => {
 
         {showAboutVideoPop && <AboutVidoePop cancelPopVideo={cancelPopVideo} animate={animate} />}
 
-        <BackToTop />
+
     </>
     
   )
